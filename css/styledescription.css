@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One');
+
+
+:root {
+  --bg-color: #130a01;
+  --font-color: #fcffce;
+  --btn-bg-color: #EDF2F4;
+  --accent-color: #9C6615;
+  --header-shadow: #ffffff 0px 0px 10px;
+  --bg-box-color: #133C55;
+}
+
+* {
+  padding: 0;
+  margin: 2;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2rem;
+}
+
+header {
+  background-color: var(--bg-box-color);
+  box-shadow: var(--header-shadow);
+  font-family: 'Sonsie One', sans-serif;
+ 
+}
+
+header .container {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
